@@ -9,16 +9,6 @@ This project is an Apple iPhone 15 Pro website clone, built using React, Vite, T
 - React Three Drei
 - GSAP (Greensock)
 - Vite
-
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
-
-- React.js
-- Three.js
-- React Three Fiber
-- React Three Drei
-- GSAP (Greensock)
-- Vite
 - Tailwind CSS
 
 ## <a name="features">🔋 Features</a>
