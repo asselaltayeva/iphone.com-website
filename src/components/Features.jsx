@@ -5,7 +5,7 @@ import { explore1Img, explore2Img, exploreVideo } from '../utils';
 import gsap from 'gsap';
 
 const Features = () => {
-  const videoRef = useRef();
+  const videoRef = useRef(null);
 
   useGSAP(() => {
     gsap.to('#exploreVideo', {
@@ -33,7 +33,7 @@ const Features = () => {
 
   return (
     <section className="h-full common-padding bg-zinc relative overflow-hidden">
-      <div className="screen-max-wdith">
+      <div className="screen-max-width">
         <div className="mb-12 w-full">
           <h1 id="features_title" className="section-heading">Explore the full story.</h1>
         </div>
@@ -91,5 +91,4 @@ const Features = () => {
   )
 }
 
-//Test change
 export default Features
